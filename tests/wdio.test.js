@@ -25,7 +25,7 @@ describe('Automation Practice Test', () => {
         loginPass.setValue('Nopass@123');
         browser.pause(3000);            // Static wait
         loginEmail.clearValue();
-        browser.pause(3000);            // Static wait
+        browser.pause(3000);            
     })
 
     it('Testing JavaScript', () =>{
