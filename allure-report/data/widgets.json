@@ -1,0 +1,70 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "time" : {
+      "start" : 1583794044502,
+      "stop" : 1583794049303,
+      "duration" : 4801,
+      "minDuration" : 583,
+      "maxDuration" : 4217,
+      "sumDuration" : 4800
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "84c163fc4b204631fa2551f741277813",
+      "name" : "Login test of webappsecurity page",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "buildOrder" : 3,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/3/allure",
+    "reportName" : "AllureReport"
+  } ],
+  "behaviors" : {
+    "total" : 2,
+    "items" : [ ]
+  },
+  "executors" : [ {
+    "name" : "Jenkins",
+    "type" : "jenkins",
+    "url" : "http://localhost:8080/",
+    "buildOrder" : 3,
+    "buildName" : "WebdriverIO #3",
+    "buildUrl" : "http://localhost:8080/job/WebdriverIO/3/",
+    "reportName" : "AllureReport",
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/3/allure"
+  } ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

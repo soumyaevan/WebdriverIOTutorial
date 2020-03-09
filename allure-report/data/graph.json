@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7000de767811d8f5",
+  "name" : "Validate Home page and navigate to Login Page",
+  "time" : {
+    "start" : 1583794044502,
+    "stop" : 1583794048719,
+    "duration" : 4217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8571a03e8d212256",
+  "name" : "Validate Invalid Login Message",
+  "time" : {
+    "start" : 1583794048720,
+    "stop" : 1583794049303,
+    "duration" : 583
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

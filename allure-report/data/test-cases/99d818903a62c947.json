@@ -1,0 +1,62 @@
+{
+  "uid" : "99d818903a62c947",
+  "name" : "Validate Home page and navigate to Login Page",
+  "fullName" : "Login test of webappsecurity page.Validate Home page and navigate to Login Page",
+  "historyId" : "e4e5876c9f03e990e446a5bdcb63d348",
+  "time" : {
+    "start" : 1583792603069,
+    "stop" : 1583792607603,
+    "duration" : 4534
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate Home page and navigate to Login Page"
+  }, {
+    "name" : "package",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "99d818903a62c947.json",
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}

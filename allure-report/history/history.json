@@ -1,0 +1,42 @@
+{
+  "e4e5876c9f03e990e446a5bdcb63d348" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7000de767811d8f5",
+      "reportUrl" : "http://localhost:8080/job/WebdriverIO/3/allure/#testresult/7000de767811d8f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583794044502,
+        "stop" : 1583794048719,
+        "duration" : 4217
+      }
+    } ]
+  },
+  "d0501613526d044f272881fd1edb385f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8571a03e8d212256",
+      "reportUrl" : "http://localhost:8080/job/WebdriverIO/3/allure/#testresult/8571a03e8d212256",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583794048720,
+        "stop" : 1583794049303,
+        "duration" : 583
+      }
+    } ]
+  }
+}
