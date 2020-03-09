@@ -172,6 +172,24 @@ exports.config = {
             title: this.getTitle(),
         }
         })
+
+        browser.addCommand('waitAndClick',function(selector){
+            try {
+                $(selector).waitForEnabled(5000);
+                $(selector).click();
+            } catch (error) {
+                throw new Error(`Selector ${selector} is not clickable`);
+            }
+        })
+
+        browser.addCommand('waitAndType',function(selector,value){
+            try {
+                $(selector).waitForEnabled(5000);
+                $(selector).setValue(value);
+            } catch (error) {
+                throw new Error(`Value can not be entered insideSelector ${selector}`);
+            }
+        })
     },
     /**
      * Runs before a WebdriverIO command gets executed.
