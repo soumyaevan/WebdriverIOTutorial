@@ -25,7 +25,8 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
         './tests/standalone.test.js',
-        './tests/wdio.test.js'
+        './tests/wdio.test.js',
+        './tests/webapp.login.test.js'
     ],
     //
     // ============
