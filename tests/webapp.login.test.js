@@ -10,25 +10,15 @@ describe('Invalid Login Test of Webapp site',()=> {
     })
 
     it('Navigate to login page',()=>{
-        // const btnSignIn = $('#signin_button');
-        // btnSignIn.waitForExist(5000);
-        // btnSignIn.click();
         browser.waitAndClick('#signin_button');
         expect(browser.getTitle()).to.contains('Zero - Log in');
     })
 
     it('Try invalid login and verify the error message', () =>{
-        // const txtLoginId = $('#user_login');
-        // const txtPasswd = $('#user_password');
-        // const btnSignIn = $('//input[@value="Sign in"]');
         const errorMsg = $('//form[@id="login_form"]/div[1]');
-        // txtLoginId.waitForEnabled(5000);
-        // txtLoginId.setValue(localConfig.username);
-        // txtPasswd.setValue(localConfig.password);
         browser.waitAndType('#user_login',dataHelper.getRandomEmail());
         browser.waitAndType('#user_password',localConfig.password);
         browser.waitAndClick('//input[@value="Sign in"]');
-        // btnSignIn.click();
         console.log(dataHelper.getRandomName());
         errorMsg.waitForDisplayed(5000);
         expect(errorMsg.getText()).to.contains('Login and/or password are wrong.');

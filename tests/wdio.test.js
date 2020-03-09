@@ -39,3 +39,18 @@ describe('Automation Practice Test', () => {
         expect(add).to.equal(90);
     })
 })
+
+
+// Some imortent snippets
+
+        // const txtLoginId = $('#user_login');
+        // const txtPasswd = $('#user_password');
+        // const btnSignIn = $('//input[@value="Sign in"]');
+
+        // txtLoginId.waitForEnabled(5000);
+        // txtLoginId.setValue(localConfig.username);
+        // txtPasswd.setValue(localConfig.password);
+
+        // const btnSignIn = $('#signin_button');
+        // btnSignIn.waitForExist(5000);
+        // btnSignIn.click();
