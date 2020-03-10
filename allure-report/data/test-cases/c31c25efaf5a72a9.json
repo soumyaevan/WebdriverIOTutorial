@@ -1,0 +1,66 @@
+{
+  "uid" : "c31c25efaf5a72a9",
+  "name" : "POST request",
+  "fullName" : "Demo API Test.POST request",
+  "historyId" : "3d19b390d2d923db7079928cbdf5a31c",
+  "time" : {
+    "start" : 1583834570066,
+    "stop" : 1583834570223,
+    "duration" : 157
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "Unknown encoding: {\n                  projectIds: 345,\n                  tagVersion: '66be63ff2ade1c794c0cb24bbc25157fff4ad186'\n                }",
+    "trace" : "TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: {\n                  projectIds: 345,\n                  tagVersion: '66be63ff2ade1c794c0cb24bbc25157fff4ad186'\n                }\n                    at normalizeEncoding (string_decoder.js:57:13)\n                    at new StringDecoder (string_decoder.js:71:19)\n                    at IncomingMessage.setEncoding (_stream_readable.js:329:19)\n                    at Context.<anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/api.test.js:17:81)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "POST request"
+  }, {
+    "name" : "package",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "c31c25efaf5a72a9.json",
+  "statusMessage" : {
+    "empty" : false,
+    "present" : true
+  },
+  "statusDetailsSafe" : {
+    "message" : "Unknown encoding: {\n                  projectIds: 345,\n                  tagVersion: '66be63ff2ade1c794c0cb24bbc25157fff4ad186'\n                }",
+    "trace" : "TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: {\n                  projectIds: 345,\n                  tagVersion: '66be63ff2ade1c794c0cb24bbc25157fff4ad186'\n                }\n                    at normalizeEncoding (string_decoder.js:57:13)\n                    at new StringDecoder (string_decoder.js:71:19)\n                    at IncomingMessage.setEncoding (_stream_readable.js:329:19)\n                    at Context.<anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/api.test.js:17:81)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+    "flaky" : false
+  },
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}

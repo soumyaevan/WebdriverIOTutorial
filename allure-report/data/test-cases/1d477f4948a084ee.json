@@ -1,0 +1,66 @@
+{
+  "uid" : "1d477f4948a084ee",
+  "name" : "Post request uning axios",
+  "fullName" : "Login test of webappsecurity page.Post request uning axios",
+  "historyId" : "1c96516be2bdbfa1e8ac18c63ce96314",
+  "time" : {
+    "start" : 1583850583503,
+    "stop" : 1583850586078,
+    "duration" : 2575
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "expected true to equal 'true'",
+    "trace" : "AssertionError: expected true to equal 'true'\n                    at Context.<anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/login.test.js:27:42)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Post request uning axios"
+  }, {
+    "name" : "package",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "1d477f4948a084ee.json",
+  "statusMessage" : {
+    "empty" : false,
+    "present" : true
+  },
+  "statusDetailsSafe" : {
+    "message" : "expected true to equal 'true'",
+    "trace" : "AssertionError: expected true to equal 'true'\n                    at Context.<anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/login.test.js:27:42)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+    "flaky" : false
+  },
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}

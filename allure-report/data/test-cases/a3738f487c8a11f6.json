@@ -1,0 +1,62 @@
+{
+  "uid" : "a3738f487c8a11f6",
+  "name" : "POST request",
+  "fullName" : "Login test of webappsecurity page.POST request",
+  "historyId" : "d603d860ba8f473666abbae43a5e144a",
+  "time" : {
+    "start" : 1583847392295,
+    "stop" : 1583847392311,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testMethod",
+    "value" : "POST request"
+  }, {
+    "name" : "package",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "a3738f487c8a11f6.json",
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}

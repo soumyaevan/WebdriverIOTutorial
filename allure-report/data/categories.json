@@ -1,5 +1,25 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "req is not defined",
+      "children" : [ {
+        "name" : "Validate API Request",
+        "uid" : "cb62d77453ac4cb5",
+        "parentUid" : "ce334e2b34fdd5b0017a0b2c99b7dc6d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1583843795963,
+          "stop" : 1583843796265,
+          "duration" : 302
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome-80.0.3987.132" ]
+      } ],
+      "uid" : "ce334e2b34fdd5b0017a0b2c99b7dc6d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

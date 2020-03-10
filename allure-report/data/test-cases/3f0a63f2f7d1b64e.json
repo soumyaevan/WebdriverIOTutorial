@@ -1,0 +1,62 @@
+{
+  "uid" : "3f0a63f2f7d1b64e",
+  "name" : "Post request uning axios",
+  "fullName" : "Login test of webappsecurity page.Post request uning axios",
+  "historyId" : "1c96516be2bdbfa1e8ac18c63ce96314",
+  "time" : {
+    "start" : 1583850457185,
+    "stop" : 1583850458150,
+    "duration" : 965
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Post request uning axios"
+  }, {
+    "name" : "package",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "3f0a63f2f7d1b64e.json",
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}

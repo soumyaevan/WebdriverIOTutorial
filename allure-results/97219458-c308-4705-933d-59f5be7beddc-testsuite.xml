@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583849937966' stop='1583849937972'>
+    <name>Login test of webappsecurity page</name>
+    <title>Login test of webappsecurity page</title>
+    <test-cases>
+        <test-case start='1583849937967' status='broken' stop='1583849937971'>
+            <name>Post request uning axios</name>
+            <title>Post request uning axios</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>params is not defined</message>
+                <stack-trace>ReferenceError: params is not defined
+                    at Context.&lt;anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/login.test.js:21:15)
+                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:21)
+                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:55:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

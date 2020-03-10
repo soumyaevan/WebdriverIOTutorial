@@ -2,30 +2,82 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
+    "name" : "Demo API Test",
+    "children" : [ {
+      "name" : "POST request",
+      "uid" : "a428392a6c01a8b6",
+      "parentUid" : "f31fb0cfbe582e8b3c949857e56a38ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583842540403,
+        "stop" : 1583842540416,
+        "duration" : 13
+      },
+      "flaky" : true,
+      "parameters" : [ "chrome-80.0.3987.132" ]
+    }, {
+      "name" : "Validate API Request",
+      "uid" : "cb62d77453ac4cb5",
+      "parentUid" : "f31fb0cfbe582e8b3c949857e56a38ed",
+      "status" : "broken",
+      "time" : {
+        "start" : 1583843795963,
+        "stop" : 1583843796265,
+        "duration" : 302
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-80.0.3987.132" ]
+    } ],
+    "uid" : "f31fb0cfbe582e8b3c949857e56a38ed"
+  }, {
     "name" : "Login test of webappsecurity page",
     "children" : [ {
-      "name" : "Validate Home page and navigate to Login Page",
-      "uid" : "7000de767811d8f5",
+      "name" : "POST request",
+      "uid" : "51bf040dc62a4763",
       "parentUid" : "ea6a8ca183c7d6be4eb4cc095f6b1a01",
       "status" : "passed",
       "time" : {
-        "start" : 1583794044502,
-        "stop" : 1583794048719,
-        "duration" : 4217
+        "start" : 1583847491793,
+        "stop" : 1583847491809,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-80.0.3987.132" ]
+    }, {
+      "name" : "Validate Home page and navigate to Login Page",
+      "uid" : "6bcbc7f31c5f7e0e",
+      "parentUid" : "ea6a8ca183c7d6be4eb4cc095f6b1a01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583852154478,
+        "stop" : 1583852158807,
+        "duration" : 4329
       },
       "flaky" : false,
       "parameters" : [ "chrome-80.0.3987.132" ]
     }, {
       "name" : "Validate Invalid Login Message",
-      "uid" : "8571a03e8d212256",
+      "uid" : "4fd069fd5d098d54",
       "parentUid" : "ea6a8ca183c7d6be4eb4cc095f6b1a01",
       "status" : "passed",
       "time" : {
-        "start" : 1583794048720,
-        "stop" : 1583794049303,
-        "duration" : 583
+        "start" : 1583852158808,
+        "stop" : 1583852159348,
+        "duration" : 540
       },
       "flaky" : false,
+      "parameters" : [ "chrome-80.0.3987.132" ]
+    }, {
+      "name" : "Post request uning axios",
+      "uid" : "895182c3bb8523b0",
+      "parentUid" : "ea6a8ca183c7d6be4eb4cc095f6b1a01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583852159348,
+        "stop" : 1583852160219,
+        "duration" : 871
+      },
+      "flaky" : true,
       "parameters" : [ "chrome-80.0.3987.132" ]
     } ],
     "uid" : "ea6a8ca183c7d6be4eb4cc095f6b1a01"

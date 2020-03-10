@@ -1,0 +1,61 @@
+[ {
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 5,
+    "unknown" : 0,
+    "total" : 6
+  },
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/job/WebdriverIO/7/allure",
+  "reportName" : "AllureReport"
+}, {
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 3,
+    "unknown" : 0,
+    "total" : 3
+  },
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:8080/job/WebdriverIO/6/allure",
+  "reportName" : "AllureReport"
+}, {
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 3,
+    "unknown" : 0,
+    "total" : 3
+  },
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/WebdriverIO/5/allure",
+  "reportName" : "AllureReport"
+}, {
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost:8080/job/WebdriverIO/4/allure",
+  "reportName" : "AllureReport"
+}, {
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "buildOrder" : 3,
+  "reportUrl" : "http://localhost:8080/job/WebdriverIO/3/allure",
+  "reportName" : "AllureReport"
+} ]

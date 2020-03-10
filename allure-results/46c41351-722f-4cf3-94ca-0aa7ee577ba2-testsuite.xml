@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583843795962' stop='1583843796266'>
+    <name>Demo API Test</name>
+    <title>Demo API Test</title>
+    <test-cases>
+        <test-case start='1583843795963' status='broken' stop='1583843796265'>
+            <name>Validate API Request</name>
+            <title>Validate API Request</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>req is not defined</message>
+                <stack-trace>ReferenceError: req is not defined
+                    at Context.&lt;anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/api.test.js:35:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

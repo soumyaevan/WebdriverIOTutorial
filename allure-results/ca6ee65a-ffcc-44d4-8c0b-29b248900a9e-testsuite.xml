@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583834570066' stop='1583834570225'>
+    <name>Demo API Test</name>
+    <title>Demo API Test</title>
+    <test-cases>
+        <test-case start='1583834570066' status='broken' stop='1583834570223'>
+            <name>POST request</name>
+            <title>POST request</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Unknown encoding: {
+                  projectIds: 345,
+                  tagVersion: '66be63ff2ade1c794c0cb24bbc25157fff4ad186'
+                }</message>
+                <stack-trace>TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: {
+                  projectIds: 345,
+                  tagVersion: '66be63ff2ade1c794c0cb24bbc25157fff4ad186'
+                }
+                    at normalizeEncoding (string_decoder.js:57:13)
+                    at new StringDecoder (string_decoder.js:71:19)
+                    at IncomingMessage.setEncoding (_stream_readable.js:329:19)
+                    at Context.&lt;anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/api.test.js:17:81)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:12)
+                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

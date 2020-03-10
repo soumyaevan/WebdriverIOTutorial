@@ -1,0 +1,62 @@
+{
+  "uid" : "6c7649c59734d5f1",
+  "name" : "POST request",
+  "fullName" : "Demo API Test.POST request",
+  "historyId" : "3d19b390d2d923db7079928cbdf5a31c",
+  "time" : {
+    "start" : 1583835472093,
+    "stop" : 1583835472106,
+    "duration" : 13
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "POST request"
+  }, {
+    "name" : "package",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "6c7649c59734d5f1.json",
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}

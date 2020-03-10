@@ -1,0 +1,29 @@
+//import { expect } from 'chai';
+var supertest = require('supertest');
+var server = supertest.agent('https://dcb-staging.eu-west-1.csq.io');
+var chai = require('chai');
+const api = 'https://dcb-staging.eu-west-1.csq.io';
+var relativeURL = '/tag-builder/build';
+
+describe('Demo API Test',() =>{
+    this.timeout(99000);
+    it('POST request', function(done){(
+        server
+            .post(relativeURL)
+            .set('content-type','application/json'))
+            .send({
+            "projectIds": [345],
+            "tagVersion": "66be63ff2ade1c794c0cb24bbc25157fff4ad186"
+        })
+        .end(function(err,res){
+            if(!err){
+                // chai.expect(res.body).to.have.property('success','true');
+                chai.expect(res.body.success).to.equal(true);
+                console.log(res.body);
+                done();
+            }
+            else
+                console.log(err.message);
+        })
+    })
+})

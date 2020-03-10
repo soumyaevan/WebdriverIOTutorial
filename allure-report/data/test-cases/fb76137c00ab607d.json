@@ -1,0 +1,66 @@
+{
+  "uid" : "fb76137c00ab607d",
+  "name" : "POST request",
+  "fullName" : "Demo API Test.POST request",
+  "historyId" : "3d19b390d2d923db7079928cbdf5a31c",
+  "time" : {
+    "start" : 1583834618374,
+    "stop" : 1583834618521,
+    "duration" : 147
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "(intermediate value).send is not a function",
+    "trace" : "TypeError: (intermediate value).send is not a function\n                    at Context.<anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/api.test.js:17:81)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "POST request"
+  }, {
+    "name" : "package",
+    "value" : "Demo API Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "fb76137c00ab607d.json",
+  "statusMessage" : {
+    "empty" : false,
+    "present" : true
+  },
+  "statusDetailsSafe" : {
+    "message" : "(intermediate value).send is not a function",
+    "trace" : "TypeError: (intermediate value).send is not a function\n                    at Context.<anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/api.test.js:17:81)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:12)\n                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)",
+    "flaky" : false
+  },
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}
