@@ -32,10 +32,10 @@ describe('Login test of webappsecurity page', () => {
         const params = {
             autoInsightsEnabled : true
         };
-        const headers = {
-            'Content-Type': 'application/json'
+        const options = {
+            headers: {'Content-Type': 'application/json'}
         }
-        let res = await axios.put('https://projects-staging.csq.io/v1/tags/345',params,headers);
+        let res = await axios.put('https://projects-staging.csq.io/v1/tags/345',params,options);
         console.log(res.data);
         let dataToValidate = res.data.payload.autoInsightsEnabled;
         let responseToValidate = res.data.success;
