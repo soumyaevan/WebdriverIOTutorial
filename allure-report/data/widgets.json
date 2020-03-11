@@ -4,49 +4,146 @@
     "testRuns" : [ ],
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 6
+      "total" : 2
     },
     "time" : {
-      "start" : 1583842540403,
-      "stop" : 1583852160219,
-      "duration" : 9619816,
-      "minDuration" : 13,
-      "maxDuration" : 4329,
-      "sumDuration" : 6071
+      "start" : 1583934227557,
+      "stop" : 1583934238329,
+      "duration" : 10772,
+      "minDuration" : 3968,
+      "maxDuration" : 6802,
+      "sumDuration" : 10770
     }
   },
   "environment" : [ ],
   "suites" : {
-    "total" : 2,
+    "total" : 1,
     "items" : [ {
-      "uid" : "485e30143ab69b88128cf08e93cf5337",
-      "name" : "Demo API Test",
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 1,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 2
-      }
-    }, {
       "uid" : "84c163fc4b204631fa2551f741277813",
       "name" : "Login test of webappsecurity page",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 2,
         "unknown" : 0,
-        "total" : 4
+        "total" : 2
       }
     } ]
   },
   "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "buildOrder" : 17,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/17/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "buildOrder" : 16,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/16/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "buildOrder" : 15,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/15/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 0
+    },
+    "buildOrder" : 14,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/14/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "buildOrder" : 13,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/13/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "buildOrder" : 12,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/12/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "buildOrder" : 11,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/11/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "buildOrder" : 10,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/10/allure",
+    "reportName" : "AllureReport"
+  }, {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "buildOrder" : 9,
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/9/allure",
+    "reportName" : "AllureReport"
+  }, {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -120,33 +217,22 @@
     "reportName" : "AllureReport"
   } ],
   "behaviors" : {
-    "total" : 6,
+    "total" : 2,
     "items" : [ ]
   },
   "executors" : [ {
     "name" : "Jenkins",
     "type" : "jenkins",
     "url" : "http://localhost:8080/",
-    "buildOrder" : 8,
-    "buildName" : "WebdriverIO #8",
-    "buildUrl" : "http://localhost:8080/job/WebdriverIO/8/",
+    "buildOrder" : 17,
+    "buildName" : "WebdriverIO #17",
+    "buildUrl" : "http://localhost:8080/job/WebdriverIO/17/",
     "reportName" : "AllureReport",
-    "reportUrl" : "http://localhost:8080/job/WebdriverIO/8/allure"
+    "reportUrl" : "http://localhost:8080/job/WebdriverIO/17/allure"
   } ],
   "categories" : {
-    "total" : 1,
-    "items" : [ {
-      "uid" : "bdbf199525818fae7a8651db9eafe741",
-      "name" : "Test defects",
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 1,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      }
-    } ]
+    "total" : 0,
+    "items" : [ ]
   },
   "launches" : [ ]
 }

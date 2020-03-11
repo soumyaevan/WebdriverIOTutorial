@@ -4,76 +4,28 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "POST request",
-      "uid" : "a428392a6c01a8b6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583842540403,
-        "stop" : 1583842540416,
-        "duration" : 13
-      },
-      "flaky" : true,
-      "parameters" : [ "chrome-80.0.3987.132" ]
-    }, {
-      "name" : "Post request uning axios",
-      "uid" : "895182c3bb8523b0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583852159348,
-        "stop" : 1583852160219,
-        "duration" : 871
-      },
-      "flaky" : true,
-      "parameters" : [ "chrome-80.0.3987.132" ]
-    }, {
       "name" : "Validate Home page and navigate to Login Page",
-      "uid" : "6bcbc7f31c5f7e0e",
+      "uid" : "60603b032e430025",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583852154478,
-        "stop" : 1583852158807,
-        "duration" : 4329
-      },
-      "flaky" : false,
-      "parameters" : [ "chrome-80.0.3987.132" ]
-    }, {
-      "name" : "Validate API Request",
-      "uid" : "cb62d77453ac4cb5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1583843795963,
-        "stop" : 1583843796265,
-        "duration" : 302
+        "start" : 1583934227557,
+        "stop" : 1583934234359,
+        "duration" : 6802
       },
       "flaky" : false,
       "parameters" : [ "chrome-80.0.3987.132" ]
     }, {
       "name" : "Validate Invalid Login Message",
-      "uid" : "4fd069fd5d098d54",
+      "uid" : "f81836cf041a00fb",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1583852158808,
-        "stop" : 1583852159348,
-        "duration" : 540
+        "start" : 1583934234361,
+        "stop" : 1583934238329,
+        "duration" : 3968
       },
-      "flaky" : false,
-      "parameters" : [ "chrome-80.0.3987.132" ]
-    }, {
-      "name" : "POST request",
-      "uid" : "51bf040dc62a4763",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1583847491793,
-        "stop" : 1583847491809,
-        "duration" : 16
-      },
-      "flaky" : false,
+      "flaky" : true,
       "parameters" : [ "chrome-80.0.3987.132" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"

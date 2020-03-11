@@ -1,4 +1,5 @@
 const config = require('./lib/global.congig');
+const video = require('wdio-video-reporter');
 
 exports.config = {
     //
@@ -19,7 +20,8 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './tests/**/*.js'
+        // './tests/**/*.js',
+        './tests/login.test.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -126,11 +128,17 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     // reporters: ['spec'],
-    reporters: ['spec',['allure', {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,
-    }]],
+    reporters: ['spec',
+        [video, {
+            saveAllVideos: false,       // If true, also saves videos for successful test cases
+            videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+        }],
+        ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+        }]
+    ],
  
     //
     // Options to be passed to Mocha.
@@ -230,8 +238,11 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+     afterTest: function(test) {
+        if (test.error !== undefined) {
+          browser.takeScreenshot();
+        }
+      }
 
 
     /**

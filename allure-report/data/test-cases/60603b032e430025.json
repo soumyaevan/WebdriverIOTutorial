@@ -1,0 +1,170 @@
+{
+  "uid" : "60603b032e430025",
+  "name" : "Validate Home page and navigate to Login Page",
+  "fullName" : "Login test of webappsecurity page.Validate Home page and navigate to Login Page",
+  "historyId" : "e4e5876c9f03e990e446a5bdcb63d348",
+  "time" : {
+    "start" : 1583934227557,
+    "stop" : 1583934234359,
+    "duration" : 6802
+  },
+  "description" : "Home Page Navigation",
+  "descriptionHtml" : "<p>Home Page Navigation</p>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigating to Home Page",
+      "time" : {
+        "start" : 1583934227558,
+        "stop" : 1583934229818,
+        "duration" : 2260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Clicking on SignIn button to navigate to login page",
+      "time" : {
+        "start" : 1583934229818,
+        "stop" : 1583934231351,
+        "duration" : 1533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate Home page and navigate to Login Page"
+  }, {
+    "name" : "package",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "73a168ad27f1f729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583934097314,
+        "stop" : 1583934103972,
+        "duration" : 6658
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "34d534ac707209f5",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/16/allure/#testresult/34d534ac707209f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583934097314,
+          "stop" : 1583934103972,
+          "duration" : 6658
+        }
+      }, {
+        "uid" : "6c0233cae83582c2",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/15/allure/#testresult/6c0233cae83582c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583930916375,
+          "stop" : 1583930923449,
+          "duration" : 7074
+        }
+      }, {
+        "uid" : "59c0f062153f6ca8",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/13/allure/#testresult/59c0f062153f6ca8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583923453162,
+          "stop" : 1583923457508,
+          "duration" : 4346
+        }
+      }, {
+        "uid" : "cdd843b46785d82b",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/12/allure/#testresult/cdd843b46785d82b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583881929535,
+          "stop" : 1583881934082,
+          "duration" : 4547
+        }
+      }, {
+        "uid" : "a97c0ab7c216fbf0",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/11/allure/#testresult/a97c0ab7c216fbf0",
+        "status" : "broken",
+        "statusDetails" : "_allureReporter.default.description is not a function",
+        "time" : {
+          "start" : 1583881744055,
+          "stop" : 1583881744426,
+          "duration" : 371
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "source" : "60603b032e430025.json",
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}

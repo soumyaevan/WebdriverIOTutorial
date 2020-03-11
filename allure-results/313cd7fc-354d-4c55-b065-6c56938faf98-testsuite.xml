@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583934227554' stop='1583934238329'>
+    <name>Login test of webappsecurity page</name>
+    <title>Login test of webappsecurity page</title>
+    <test-cases>
+        <test-case start='1583934227557' status='passed' stop='1583934234359'>
+            <name>Validate Home page and navigate to Login Page</name>
+            <title>Validate Home page and navigate to Login Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps>
+                <step start='1583934227558' status='passed' stop='1583934229818'>
+                    <name>Navigating to Home Page</name>
+                    <title>Navigating to Home Page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583934229818' status='passed' stop='1583934231351'>
+                    <name>Clicking on SignIn button to navigate to login page</name>
+                    <title>Clicking on SignIn button to navigate to login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Home Page Navigation</description>
+        </test-case>
+        <test-case start='1583934234361' status='passed' stop='1583934238329'>
+            <name>Validate Invalid Login Message</name>
+            <title>Validate Invalid Login Message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps>
+                <step start='1583934234361' status='passed' stop='1583934237276'>
+                    <name>Login Authentication</name>
+                    <title>Login Authentication</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583934234361' status='passed' stop='1583934235126'>
+                            <name>Entering Username</name>
+                            <title>Entering Username</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583934235126' status='passed' stop='1583934236172'>
+                            <name>Entering Password</name>
+                            <title>Entering Password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583934236172' status='passed' stop='1583934237276'>
+                            <name>Clicking Sign In button</name>
+                            <title>Clicking Sign In button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Invalid Login test</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

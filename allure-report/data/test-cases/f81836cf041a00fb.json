@@ -1,0 +1,204 @@
+{
+  "uid" : "f81836cf041a00fb",
+  "name" : "Validate Invalid Login Message",
+  "fullName" : "Login test of webappsecurity page.Validate Invalid Login Message",
+  "historyId" : "d0501613526d044f272881fd1edb385f",
+  "time" : {
+    "start" : 1583934234361,
+    "stop" : 1583934238329,
+    "duration" : 3968
+  },
+  "description" : "Invalid Login test",
+  "descriptionHtml" : "<p>Invalid Login test</p>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login Authentication",
+      "time" : {
+        "start" : 1583934234361,
+        "stop" : 1583934237276,
+        "duration" : 2915
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Entering Username",
+        "time" : {
+          "start" : 1583934234361,
+          "stop" : 1583934235126,
+          "duration" : 765
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Entering Password",
+        "time" : {
+          "start" : 1583934235126,
+          "stop" : 1583934236172,
+          "duration" : 1046
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicking Sign In button",
+        "time" : {
+          "start" : 1583934236172,
+          "stop" : 1583934237276,
+          "duration" : 1104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate Invalid Login Message"
+  }, {
+    "name" : "package",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bed0fe0441546953",
+      "status" : "broken",
+      "statusDetails" : "Step status must be passed or failed or broken or canceled or skipped. You tried to set \"Passed\"",
+      "time" : {
+        "start" : 1583934103974,
+        "stop" : 1583934108005,
+        "duration" : 4031
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "4379b71b0e73e6e8",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/16/allure/#testresult/4379b71b0e73e6e8",
+        "status" : "broken",
+        "statusDetails" : "Step status must be passed or failed or broken or canceled or skipped. You tried to set \"Passed\"",
+        "time" : {
+          "start" : 1583934103974,
+          "stop" : 1583934108005,
+          "duration" : 4031
+        }
+      }, {
+        "uid" : "46becaba3444809",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/15/allure/#testresult/46becaba3444809",
+        "status" : "broken",
+        "statusDetails" : "selector needs to be typeof `string` or `function`",
+        "time" : {
+          "start" : 1583930923451,
+          "stop" : 1583930927149,
+          "duration" : 3698
+        }
+      }, {
+        "uid" : "464dee5a782c8007",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/13/allure/#testresult/464dee5a782c8007",
+        "status" : "broken",
+        "statusDetails" : "selector needs to be typeof `string` or `function`",
+        "time" : {
+          "start" : 1583923457508,
+          "stop" : 1583923458447,
+          "duration" : 939
+        }
+      }, {
+        "uid" : "da9ce8e9984cedd2",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/12/allure/#testresult/da9ce8e9984cedd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1583881934082,
+          "stop" : 1583881934771,
+          "duration" : 689
+        }
+      }, {
+        "uid" : "5d44a6eb63cbcdf1",
+        "reportUrl" : "http://localhost:8080/job/WebdriverIO/11/allure/#testresult/5d44a6eb63cbcdf1",
+        "status" : "broken",
+        "statusDetails" : "_allureReporter.default.description is not a function",
+        "time" : {
+          "start" : 1583881744427,
+          "stop" : 1583881744746,
+          "duration" : 319
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "source" : "f81836cf041a00fb.json",
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}

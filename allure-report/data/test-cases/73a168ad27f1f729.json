@@ -1,0 +1,297 @@
+{
+  "uid" : "73a168ad27f1f729",
+  "name" : "Validate Home page and navigate to Login Page",
+  "fullName" : "Login test of webappsecurity page.Validate Home page and navigate to Login Page",
+  "historyId" : "e4e5876c9f03e990e446a5bdcb63d348",
+  "time" : {
+    "start" : 1583934097314,
+    "stop" : 1583934103972,
+    "duration" : 6658
+  },
+  "description" : "Home Page Navigation",
+  "descriptionHtml" : "<p>Home Page Navigation</p>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Navigating to Home Page",
+      "time" : {
+        "start" : 1583934097315,
+        "stop" : 1583934101364,
+        "duration" : 4049
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1583934097316,
+          "stop" : 1583934098348,
+          "duration" : 1032
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "98734d2c65b0ea07",
+          "name" : "Request",
+          "source" : "98734d2c65b0ea07.json",
+          "type" : "application/json",
+          "size" : 46
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1583934098349,
+          "stop" : 1583934099636,
+          "duration" : 1287
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/title",
+          "time" : {
+            "start" : 1583934098350,
+            "stop" : 1583934099635,
+            "duration" : 1285
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "188b1174972d95e9",
+            "name" : "Response",
+            "source" : "188b1174972d95e9.json",
+            "type" : "application/json",
+            "size" : 48
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on SignIn button to navigate to login page",
+        "time" : {
+          "start" : 1583934099636,
+          "stop" : 1583934099685,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1583934099637,
+            "stop" : 1583934099657,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "52afe6cbce06a2ad",
+            "name" : "Request",
+            "source" : "52afe6cbce06a2ad.json",
+            "type" : "application/json",
+            "size" : 58
+          }, {
+            "uid" : "8260cc9e600249d3",
+            "name" : "Response",
+            "source" : "8260cc9e600249d3.json",
+            "type" : "application/json",
+            "size" : 39
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "GET /session/:sessionId/element/0.6623441749770944-1/enabled",
+          "time" : {
+            "start" : 1583934099662,
+            "stop" : 1583934099678,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "96ddd51486ed4bf2",
+            "name" : "Screenshot",
+            "source" : "96ddd51486ed4bf2.png",
+            "type" : "image/png",
+            "size" : 1803301
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "8e91cba02a1eadc2",
+          "name" : "Response",
+          "source" : "8e91cba02a1eadc2.json",
+          "type" : "application/json",
+          "size" : 4
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1583934099685,
+          "stop" : 1583934100964,
+          "duration" : 1279
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1583934099686,
+            "stop" : 1583934100722,
+            "duration" : 1036
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e755c14c95f9d8fc",
+            "name" : "Request",
+            "source" : "e755c14c95f9d8fc.json",
+            "type" : "application/json",
+            "size" : 58
+          }, {
+            "uid" : "f3a2525144256818",
+            "name" : "Response",
+            "source" : "f3a2525144256818.json",
+            "type" : "application/json",
+            "size" : 39
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "POST /session/:sessionId/element/0.6623441749770944-1/click",
+          "time" : {
+            "start" : 1583934100725,
+            "stop" : 1583934100753,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8463595d6777cdd7",
+            "name" : "Screenshot",
+            "source" : "8463595d6777cdd7.png",
+            "type" : "image/png",
+            "size" : 1803301
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1583934100964,
+          "stop" : 1583934100964,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "4fb96264c59946c7",
+        "name" : "Screenshot",
+        "source" : "4fb96264c59946c7.png",
+        "type" : "image/png",
+        "size" : 101110
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 10,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate Home page and navigate to Login Page"
+  }, {
+    "name" : "package",
+    "value" : "Login test of webappsecurity page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.132"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "source" : "73a168ad27f1f729.json",
+  "parameterValues" : [ "chrome-80.0.3987.132" ]
+}
