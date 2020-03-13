@@ -24,4 +24,13 @@ describe('Login test of webappsecurity page', () => {
         LoginPage.validateErrorMsg(localConfig.errorMessage);
     })
 
+    it('redirect URL',() =>{
+        browser.url('https://www.clarks.co.uk');
+        browser.execute(function(){
+            change_script = $("script[src^='//t.contentsquare.net']").attr('src').replace('t.contentsquare.net','t-staging.contentsquare.net');
+            $("script[src^='//t.contentsquare.net']").remove();
+            $("<script id='testScript'/>").text(change_script).appendTo("head");
+        })
+    })
+
 })

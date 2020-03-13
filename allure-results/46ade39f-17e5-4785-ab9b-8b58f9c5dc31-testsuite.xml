@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583939562102' stop='1583939565940'>
+    <name>Login test of webappsecurity page</name>
+    <title>Login test of webappsecurity page</title>
+    <test-cases>
+        <test-case start='1583939562106' status='broken' stop='1583939565930'>
+            <name>redirect URL</name>
+            <title>redirect URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='17d672ed-38cd-4d6d-b6c0-85c8c3e2a380-attachment.mp4' type='video/mp4' size='146'/>
+            </attachments>
+            <failure>
+                <message>browser.$(...).setAttribute is not a function</message>
+                <stack-trace>TypeError: browser.$(...).setAttribute is not a function
+                    at Context.&lt;anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/login.test.js:29:44)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

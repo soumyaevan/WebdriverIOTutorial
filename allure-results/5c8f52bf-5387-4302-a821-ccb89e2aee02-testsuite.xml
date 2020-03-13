@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1584008949250' stop='1584008955565'>
+    <name>Class name and node type on Click event</name>
+    <title>Class name and node type on Click event</title>
+    <test-cases>
+        <test-case start='1584008949253' status='passed' stop='1584008953221'>
+            <name>Open Client website</name>
+            <title>Open Client website</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1584008953222' status='broken' stop='1584008955555'>
+            <name>Redirect js url to staging</name>
+            <title>Redirect js url to staging</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='908d35c6-76fe-40be-a2af-f3136fe41652-attachment.mp4' type='video/mp4' size='166'/>
+            </attachments>
+            <failure>
+                <message>Unexpected token v in JSON at position 0</message>
+                <stack-trace>SyntaxError: Unexpected token v in JSON at position 0
+                    at JSON.parse (&lt;anonymous>)
+                    at Context.&lt;anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/trackAttributeOnMouseEvent.test.js:50:26)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.executeAsync (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/shim.js:123:12)
+                    at Context.testFrameworkFnWrapper (/Users/soumyasen/Automation/WebdriverIO_Automation/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:63:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

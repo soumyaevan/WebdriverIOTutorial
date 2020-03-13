@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583940800991' stop='1583940805690'>
+    <name>Login test of webappsecurity page</name>
+    <title>Login test of webappsecurity page</title>
+    <test-cases>
+        <test-case start='1583940800994' status='broken' stop='1583940805681'>
+            <name>redirect URL</name>
+            <title>redirect URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='83787d00-38f0-4c97-8532-59e0bd6de556-attachment.mp4' type='video/mp4' size='146'/>
+            </attachments>
+            <failure>
+                <message>$(...).attr is not a function</message>
+                <stack-trace>TypeError: $(...).attr is not a function
+                    at Context.&lt;anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/login.test.js:34:67)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

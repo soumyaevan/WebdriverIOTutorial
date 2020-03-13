@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583940200904' stop='1583940204765'>
+    <name>Login test of webappsecurity page</name>
+    <title>Login test of webappsecurity page</title>
+    <test-cases>
+        <test-case start='1583940200906' status='broken' stop='1583940204756'>
+            <name>redirect URL</name>
+            <title>redirect URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='7629bcf0-5f3e-47c4-8c17-32b4a80d6579-attachment.mp4' type='video/mp4' size='146'/>
+            </attachments>
+            <failure>
+                <message>invalid argument: 'args' must be a list
+                  (Session info: chrome=80.0.3987.132)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.3 x86_64)</message>
+                <stack-trace>Error: invalid argument: 'args' must be a list
+                  (Session info: chrome=80.0.3987.132)
+                  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.15.3 x86_64)
+                    at Context.&lt;anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/login.test.js:30:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

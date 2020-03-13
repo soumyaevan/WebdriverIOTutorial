@@ -21,7 +21,7 @@ exports.config = {
     //
     specs: [
         // './tests/**/*.js',
-        './tests/login.test.js'
+        './tests/trackAttributeOnMouseEvent.test.js'
     ],
     // Patterns to exclude.
     exclude: [

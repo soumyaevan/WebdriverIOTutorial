@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583939938741' stop='1583939942604'>
+    <name>Login test of webappsecurity page</name>
+    <title>Login test of webappsecurity page</title>
+    <test-cases>
+        <test-case start='1583939938744' status='broken' stop='1583939942593'>
+            <name>redirect URL</name>
+            <title>redirect URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.132'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='38dbb54e-107b-4b92-984b-4e8d60e9ced3-attachment.mp4' type='video/mp4' size='146'/>
+            </attachments>
+            <failure>
+                <message>document is not defined</message>
+                <stack-trace>ReferenceError: document is not defined
+                    at Context.&lt;anonymous> (/Users/soumyasen/Automation/WebdriverIO_Automation/tests/login.test.js:31:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
