@@ -3,8 +3,7 @@ import allureReporter from '@wdio/allure-reporter'
 const axios = require('axios');
 
 
-describe('Class name and node type on Click event', () => {
-
+describe('Login test of webappsecurity page', () => {
     it('send a PUT request to core-projects staging', async () => {
         allureReporter.addDescription('Sending PUT request');
         const params = {
@@ -34,19 +33,4 @@ describe('Class name and node type on Click event', () => {
         expect(responseToValidate).to.be.equal(true);
     })
 
-    it('Open Client website',()=>{
-        browser.url('https://www.clarks.co.uk');
-        browser.execute(function(){
-            change_script = $("script[src^='//t.contentsquare.net']").attr('src').replace('t.contentsquare.net','t-staging.contentsquare.net');
-            $("script[src^='//t.contentsquare.net']").remove();
-            $("<script id='testScript'/>").text(change_script).appendTo("head");
-        })
-        browser.refresh();
-    })
-
-    it('Redirect js url to staging', async ()=>{
-        //allureReporter.addDescription('Redirect JS url');
-        let res = await axios.get('https://t-staging.contentsquare.net/uxa/7e233b03f5323.js');
-        console.log(res.data[0]);
-    })
 })
